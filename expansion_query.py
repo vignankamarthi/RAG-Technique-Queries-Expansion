@@ -254,8 +254,8 @@ original_query = (
 augmented_queries = generate_multi_query(original_query)
 
 # Step 1: Print out and inspect the augmented queries generated with OpenAI's API.
-#for query in augmented_queries:
-    #print("\n", query)
+for query in augmented_queries:
+    print("\n", query)
 
 # Step 2: Concatenate the original query with the newly generated, augmented queries.
 joint_query = [
